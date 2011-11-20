@@ -28,13 +28,9 @@ lib/Dwimmer/DB/Result/Site.pm
 lib/Dwimmer/DB/Result/SiteConfig.pm
 lib/Dwimmer/DB/Result/User.pm
 lib/Dwimmer/Tools.pm
-logs/production.log
 Makefile.PL
 MANIFEST			This list of files
 META.yml
-polls/perl-mongers.json
-polls/perl-news.json
-polls/perl-news.txt
 public/404.html
 public/500.html
 public/css/error.css
@@ -76,7 +72,6 @@ script/dwimmer
 script/dwimmer_backup.pl
 script/dwimmer_setup.pl
 script/feed_collector.pl
-SETUP.bat
 share/bin/app.pl
 share/config.yml
 share/environments/development.yml
@@ -129,12 +124,11 @@ share/views/register_verify_mail.tt
 t/001_base.t
 t/003_client.t
 t/004_more.t
-t/010_weekly.t
+t/010_subscribe.t
 t/011_feed_collector.t
 t/014_new_site.t
 t/015_polls.t
 t/files/perl-mongers.json
-t/files/testing-polls.json
 t/lib/Dwimmer/Test.pm
 t/lib/MIME/Lite.pm
 views/error.tt
