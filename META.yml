@@ -31,10 +31,12 @@ requires:
   Data::Dumper: 0
   Email::Valid: 0
   Encode: 0
+  Fcntl: 0
   File::ShareDir: 1.00
   File::Slurp: 0
   Getopt::Long: 0
   JSON: 0
+  List::Util: 0
   MIME::Lite: 0
   Moose: 0
   Pod::Usage: 0
@@ -42,6 +44,7 @@ requires:
   Template: 0
   XML::Feed: 0
   XML::RSS: 0
+  XML::Simple: 0
   YAML: 0
   autodie: 0
   perl: 5.008005
@@ -50,4 +53,4 @@ resources:
   homepage: http://dwimmer.org/
   license: http://dev.perl.org/licenses/
   repository: http://github.com/szabgab/dwimmer
-version: 0.23
+version: 0.24

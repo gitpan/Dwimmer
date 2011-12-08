@@ -32,6 +32,7 @@ README
 script/dbic.pl
 script/dwimmer
 script/dwimmer_backup.pl
+script/dwimmer_poll.pl
 script/dwimmer_setup.pl
 script/feed_collector.pl
 share/bin/app.pl
@@ -40,6 +41,10 @@ share/environments/development.yml
 share/environments/production.yml
 share/public/404.html
 share/public/500.html
+share/public/cleditor/images/buttons.gif
+share/public/cleditor/images/toolbar.gif
+share/public/cleditor/jquery.cleditor.css
+share/public/cleditor/jquery.cleditor.min.js
 share/public/css/error.css
 share/public/css/style.css
 share/public/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png
