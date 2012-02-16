@@ -17,6 +17,7 @@ lib/Dwimmer/DB.pm
 lib/Dwimmer/DB/Result/Config.pm
 lib/Dwimmer/DB/Result/Feed.pm
 lib/Dwimmer/DB/Result/FeedCollector.pm
+lib/Dwimmer/DB/Result/Host.pm
 lib/Dwimmer/DB/Result/MailingList.pm
 lib/Dwimmer/DB/Result/MailingListMember.pm
 lib/Dwimmer/DB/Result/Page.pm
@@ -24,6 +25,9 @@ lib/Dwimmer/DB/Result/PageHistory.pm
 lib/Dwimmer/DB/Result/Site.pm
 lib/Dwimmer/DB/Result/SiteConfig.pm
 lib/Dwimmer/DB/Result/User.pm
+lib/Dwimmer/Feed/Collector.pm
+lib/Dwimmer/Feed/DB.pm
+lib/Dwimmer/Feed/Sendmail.pm
 lib/Dwimmer/Tools.pm
 Makefile.PL
 MANIFEST			This list of files
@@ -32,6 +36,7 @@ README
 script/dbic.pl
 script/dwimmer
 script/dwimmer_backup.pl
+script/dwimmer_feed_setup.pl
 script/dwimmer_poll.pl
 script/dwimmer_setup.pl
 script/feed_collector.pl
@@ -42,7 +47,10 @@ share/environments/production.yml
 share/public/404.html
 share/public/500.html
 share/public/cleditor/images/buttons.gif
+share/public/cleditor/images/table.gif
 share/public/cleditor/images/toolbar.gif
+share/public/cleditor/jquery.cleditor.advancedtable.js
+share/public/cleditor/jquery.cleditor.advancedtable.min.js
 share/public/cleditor/jquery.cleditor.css
 share/public/cleditor/jquery.cleditor.min.js
 share/public/css/error.css
@@ -71,6 +79,7 @@ share/public/images/bgOFF.gif
 share/public/images/bgON.gif
 share/public/images/perldancer-bg.jpg
 share/public/images/perldancer.jpg
+share/public/javascripts/.dwimmer.js.swp
 share/public/javascripts/dwimmer.js
 share/public/javascripts/jquery-1.6.2.min.js
 share/public/javascripts/jquery-1.6.3.min.js
@@ -79,15 +88,22 @@ share/public/javascripts/jquery.a-tools-1.5.2.min.js
 share/public/javascripts/jquery.js
 share/public/javascripts/scriptbreaker-dropdownpanel-1.0.js
 share/schema/1.sql
+share/schema/2.sql
 share/schema/dwimmer.sql
 share/views/error.tt
+share/views/feed_atom.tt
+share/views/feed_feeds.tt
+share/views/feed_index.tt
+share/views/feed_rss.tt
 share/views/index.tt
 share/views/layouts/getclicky.tt
 share/views/layouts/google_analytics.tt
 share/views/layouts/main.tt
+share/views/layouts/search.tt
 share/views/poll.tt
 share/views/register.tt
 share/views/register_verify_mail.tt
+share/views/search_results.tt
 t/001_base.t
 t/003_client.t
 t/004_more.t
