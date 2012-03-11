@@ -25,6 +25,7 @@ lib/Dwimmer/DB/Result/PageHistory.pm
 lib/Dwimmer/DB/Result/Site.pm
 lib/Dwimmer/DB/Result/SiteConfig.pm
 lib/Dwimmer/DB/Result/User.pm
+lib/Dwimmer/Feed/Admin.pm
 lib/Dwimmer/Feed/Collector.pm
 lib/Dwimmer/Feed/DB.pm
 lib/Dwimmer/Feed/Sendmail.pm
@@ -39,6 +40,7 @@ script/dwimmer_backup.pl
 script/dwimmer_feed_setup.pl
 script/dwimmer_poll.pl
 script/dwimmer_setup.pl
+script/feed_admin.pl
 script/feed_collector.pl
 share/bin/app.pl
 share/config.yml

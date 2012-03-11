@@ -55,4 +55,4 @@ resources:
   homepage: http://dwimmer.org/
   license: http://dev.perl.org/licenses/
   repository: http://github.com/szabgab/dwimmer
-version: 0.26
+version: 0.27
